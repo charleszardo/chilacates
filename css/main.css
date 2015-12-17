@@ -222,6 +222,10 @@ a:-webkit-any-link {
 	color: #7F181A
 }
 
+.fa-fw {
+	padding-right: 10px;
+}
+
 .fa-4x {
 	padding: 0 8px;
 }
