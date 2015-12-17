@@ -207,34 +207,25 @@ footer .glyphicon {
 	background: rgba(250,250,250,0.95) 
 }
 
-
 #soc {
 	width: 425px;
 	height: 425px;
 	border-radius: 50%;
 }
 
-
 a:-webkit-any-link {
 	text-decoration: none;
+	color: #000;
+}
+
+.fa {
+	color: #7F181A
 }
 
 .fa-4x {
 	padding: 0 8px;
 }
 
-/* TESTING ROW HEIGHT SOLUTIONS BELOW */
-.press-row {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.thumbnail {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;
-	padding: 10px;
+#me {
+	color: #7F181A;
 }
