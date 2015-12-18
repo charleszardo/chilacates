@@ -189,11 +189,18 @@ footer .glyphicon {
 
 .jumbotron { 
 	background:url('../images/tacos.jpg') no-repeat center center fixed;
-	height: 1000px;
+	height: auto;
+	width: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.jumbotron img {
+	max-width: 75%;
+	width: auto;
+	height: auto;
 }
 
 .food-icon {
