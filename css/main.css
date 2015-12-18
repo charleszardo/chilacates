@@ -185,6 +185,7 @@ footer .glyphicon {
 	height: 3em;
 	line-height: 3em;
 	letter-spacing: -1px;
+	display: none;
 }
 
 .jumbotron { 
