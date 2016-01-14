@@ -47,5 +47,17 @@ $(document).ready(function() {
         }
     });
   });
+	
+	// Instagram
+	jQuery.fn.spectragram.accessData = {
+      accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
+      clientID: '8394dccde36e4993a5abfc276e6b2aea'
+	};
+
+  $('.instafeed').each(function () {
+      $(this).children('ul').spectragram('getUserFeed', {
+          query: $(this).attr('data-user-name')
+      });
+  });
 })
 

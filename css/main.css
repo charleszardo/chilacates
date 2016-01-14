@@ -1,7 +1,7 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    /*color: #818181;*/
 }
 h2 {
     font-size: 24px;
@@ -16,7 +16,13 @@ h4 {
     color: #303030;
     font-weight: 400;
     margin-bottom: 30px;
-}  
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+}
 .jumbotron {
     background-color: #7F181A;
     color: #fff;
@@ -190,6 +196,7 @@ footer .glyphicon {
 
 .jumbotron { 
 	background:url('../images/tacos.jpg') no-repeat center center fixed;
+	margin-bottom: 0px;
 	height: auto;
 	width: auto;
 	-webkit-background-size: cover;
@@ -208,11 +215,11 @@ footer .glyphicon {
 	width: 50px;
 }
 
-#menu, #review {
+#menu, #review, #main-info {
 	background:url('../images/backpattern.jpg') no-repeat center center fixed;
 }
 
-#menu-container, #review-container {
+#menu-container, #review-container, #main-info-container {
 	background: rgba(250,250,250,0.95) 
 }
 
@@ -222,23 +229,103 @@ footer .glyphicon {
 	border-radius: 50%;
 }
 
+#main-info h3 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#main-info i {
+	font-size: 40px;
+}
+
 a:-webkit-any-link {
 	text-decoration: none;
-	color: #000;
+	color: inherit;
 }
 
 .fa {
-	color: #7F181A
+	padding: 0 15px;
 }
 
-.fa-fw {
-	padding-right: 10px;
+#contact {
+	text-align: center;
 }
 
-.fa-4x {
-	padding: 0 8px;
-}
-
-#me {
+#contact a, .glyphicon {
 	color: #7F181A;
+}
+
+#me, #contact a:hover {
+	color: #41170B;
+}
+
+.contact-details li {
+	margin: 0 11px;
+}
+
+.contact-details {
+	padding: 0;
+}
+
+#footer-logo {
+	height: 97px;
+	width: 136px;
+}
+
+#credits {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+#copyright {
+	font-size: 12px;
+}
+
+.price {
+	text-align: right;
+}
+
+.item-container {
+	text-align: left;
+	width: 100%;
+	display: block;
+}
+
+.item-container div {
+	display: inline-block;
+	height: 10px;
+}
+
+.item-image {
+	width: 25%;
+}
+
+.menu-item {
+	width: 50%;
+}
+
+.sub-item {
+	font-size: 12px;
+}
+
+.price {
+	width: 20%;
+	text-align: right;
+	font-size: 10px;
+}
+
+#menu h3, #menu h4 {
+	text-transform: uppercase;
+}
+
+.navbar-collapse {
+  right: 0px;
+  position: absolute;
+  border-top: 0px;
+  background: white;
+	text-align: right;
+}
+
+.navbar-nav {
+	padding-right: 10px;
 }
